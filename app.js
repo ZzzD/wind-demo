@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import {render} from 'react-dom';
 import MapGL from 'react-map-gl';
 import DeckGL from 'deck.gl';
-import PaticleLayer from './src/windLayer/compenentLayers/particleLayer'
+import PaticleLayer from './src/windLayer/wind-layer'
 import {default as wind} from './src/windLayer/data/formatData'
 import {FPSStats} from 'react-stats'
 
